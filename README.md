@@ -1,6 +1,10 @@
-# Speak & Spell — browser TMC0281 emulator
+# Talking Chips
 
-[Use the hosted version on Fracktron](https://fracktron.com/experiments/tmc0281/speak-and-spell.html)
+[Try Talking Chips on Fracktron](https://fracktron.com/experiments/tmc0281/)
+
+The hosted demo starts with the original **SAM arbitrary-text voice**, with pitch, speed and WAV export. Switch to **Speak & Spell** for chip-emulated ROM phrases and letter spelling.
+
+This standalone repository contains the TMC0281 mode; its mode switch links to the hosted SAM demo. SAM is not a TMC0281 emulator.
 
 Play original ROM phrases, spell letters/digits aloud, and download 8 kHz WAVs.
 Vanilla JavaScript; no build step, model, API keys, account, or speech backend.
